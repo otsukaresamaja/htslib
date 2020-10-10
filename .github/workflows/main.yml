@@ -55,8 +55,8 @@ jobs:
       #    project uses a compiled language
 
       - run: |
-          autoheader
-          autoconf
+          # autoheader
+          # autoconf
           ./configure
           make
           make install
